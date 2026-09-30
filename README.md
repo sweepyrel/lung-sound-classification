@@ -9,7 +9,6 @@ MATLAB and Google Colab implementation for classifying lung sounds using Fluctua
 ![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
-![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 </div>
 
@@ -103,8 +102,6 @@ Open `notebooks/01_dwt_fdispen.m` in MATLAB and run it. This performs the DWT an
 
 Open `notebooks/02_ml_evaluation_dwt_fdispen.ipynb` in Google Colab (or Jupyter), load the extracted features, and run the cells to train and compare the models.
 
-[Open in Colab](YOUR-COLAB-LINK)
-
 ## Tools
 
 * MATLAB
@@ -114,8 +111,6 @@ Open `notebooks/02_ml_evaluation_dwt_fdispen.ipynb` in Google Colab (or Jupyter)
 ## Citation
 
 If you use this code or build on this work, please credit this repository and the original dataset.
-
-Paper: [Lung Sounds Classification using Fluctuation-Based Dispersion Entropy Features Extracted from Discrete Wavelet Transform](https://ieeexplore.ieee.org/document/11621261))
 
 ```text
 Dataset: https://doi.org/10.34740/kaggle/dsv/14636317
@@ -128,4 +123,6 @@ Made by **AURELIA ARDHANISA PUTRI**.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Copyright (c) 2026 Aurelia Ardhanisa Putri. All rights reserved.
+
+This repository is shared for viewing and academic reference only. If you would like to use, adapt, or build on this work, please contact me first at aureliaardhanisap@gmail.com

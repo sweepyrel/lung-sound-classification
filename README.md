@@ -28,6 +28,17 @@ The pipeline has four stages:
 
 This work was conducted as part of an academic research project.
 
+## Results
+
+Classification performance of the two feature extraction methods (Table II in the paper):
+
+| Feature Extraction Method | Accuracy (%) | Precision (%) | Sensitivity (%) | F1-Score (%) |
+| ------------------------- | ------------ | ------------- | --------------- | ------------ |
+| DWT-FDispEn               | 95.95        | 96.40         | 96.20           | 95.95        |
+| DWT-HFD                   | 93.94        | 94.48         | 94.40           | 94.40        |
+
+DWT-FDispEn achieved the best performance across all metrics, outperforming DWT-HFD by about 2 percentage points in accuracy.
+
 ## Workflow
 
 ```text
@@ -94,16 +105,6 @@ Open `notebooks/02_ml_evaluation_dwt_fdispen.ipynb` in Google Colab (or Jupyter)
 
 [Open in Colab](YOUR-COLAB-LINK)
 
-## Results
-
-Add your main results here, for example a table comparing the models:
-
-| Model | Accuracy | F1-score |
-| ----- | -------- | -------- |
-| SVM | YOUR-VALUE | YOUR-VALUE |
-| MLP | YOUR-VALUE | YOUR-VALUE |
-| XGBoost | YOUR-VALUE | YOUR-VALUE |
-
 ## Tools
 
 * MATLAB
@@ -112,7 +113,9 @@ Add your main results here, for example a table comparing the models:
 
 ## Citation
 
-If you use this code or build on this work, please credit the repository and the original dataset.
+If you use this code or build on this work, please credit this repository and the original dataset.
+
+Paper: [Lung Sounds Classification using Fluctuation-Based Dispersion Entropy Features Extracted from Discrete Wavelet Transform](https://ieeexplore.ieee.org/document/11621261))
 
 ```text
 Dataset: https://doi.org/10.34740/kaggle/dsv/14636317
@@ -121,6 +124,7 @@ Dataset: https://doi.org/10.34740/kaggle/dsv/14636317
 ## Author
 
 Made by **AURELIA ARDHANISA PUTRI**.
+
 
 ## License
 

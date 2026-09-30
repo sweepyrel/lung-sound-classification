@@ -122,8 +122,6 @@ Dataset: https://doi.org/10.34740/kaggle/dsv/14636317
 
 Made by **AURELIA ARDHANISA PUTRI**.
 
-[LinkedIn](www.linkedin.com/in/aurelia-a-p) · [GitHub](https://github.com/sweepyrel)
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
